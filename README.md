@@ -44,15 +44,15 @@ For example, if you authored your post on Dec 1, 2010, were using textile for yo
 
 **One Thing You Must Do!!**
 
-Every post must start with a YAML header that declares which layout you're going to use. The default layout (as seen in the [Sample Post](#)) is known as, well, 'default.' The YAML header is come configuration information that needs to go at the top of each post. This information is included between triple-dashed lines. 
+Every post must start with a YAML header that declares which layout you're going to use. This information needs to be included between triple-dashed lines at he top of each post. The default layout is known as, well, 'default' and will produce a post that [looks like this.](http://pharkmillups.github.com/i-use-riak/2010/11/17/sample-post.html)
 
-If you just want to use the default layout, start you file with a triple dash, include the following:
+If you just want to use the default layout, start your file with a triple dash, include the following:
 
 <code>
 layout: default
 </code>
 
-and then close it off with another triple-dashed line.	
+and then close it off with another triple-dashed line. Look at the [YAML header in the sample post](https://github.com/PharkMillups/i-use-riak/raw/gh-pages/_posts/2010-11-17-sample-post.md) for an example of what it should look like in your post. 
 
 If you want to get super ambitious, you could even create a new layout specifically for your post. Just make sure to reference it appropriately in the YAML header and read up on how [layouts work in Jekyll](https://github.com/mojombo/jekyll/wiki/usage). 
 
