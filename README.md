@@ -46,7 +46,7 @@ For example, if you authored your post on Dec 1, 2010, were using textile for yo
 
 Every post must start with a YAML header that declares which layout you're going to use. This information needs to be included between triple-dashed lines at he top of each post. The default layout is known as, well, 'default' and will produce a post that [looks like this.](http://pharkmillups.github.com/i-use-riak/2010/11/17/sample-post.html)
 
-If you just want to use the default layout, start your file with a triple dash. Add this on a the next line:
+If you just want to use the default layout, start your file with a triple dash. Add this on the next line:
 
 <code>
 layout: default
